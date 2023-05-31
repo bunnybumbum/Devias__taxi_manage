@@ -1,32 +1,39 @@
-# Middleman + Tailwind CSS
-[![Build Status](https://travis-ci.com/jonaskay/middleman-tailwindcss.svg?branch=master)](https://travis-ci.com/jonaskay/middleman-tailwindcss)
-## About
+Middleman + Tailwind CSS
+About
+This is a project for taxi-managing time using the Middleman Static Site Generator with Tailwind CSS and gulp.
 
-This is a project template for the [Middleman Static Site Generator](https://middlemanapp.com/) with [Tailwind CSS](https://tailwindcss.com/) and [gulp](https://gulpjs.com/). It is based on the [
-Default Middleman Project Template](https://github.com/middleman/middleman-templates-default).
+Included Libraries
+Tailwind CSS - A utility-first CSS framework
+gulp - A JavaScript toolkit
+PostCSS - A tool for automating CSS operations
+PostCSS-import - A PostCSS plugin to inline @import rules content
+Autoprefixer - A PostCSS plugin to add vendor prefixes to CSS rules
+Getting Started
+Requirements
+Middleman 4.x
+Ruby
+Bundler
+Node.js
 
-## Included Libraries
+Change into the project root:
 
-* [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
-* [gulp](https://gulpjs.com/) - A JavaScript toolkit
-* [PostCSS](http://postcss.org/) - A tool for automating CSS operations
-* [PostCSS-import](https://github.com/postcss/postcss-import) - A PostCSS plugin to inline @import rules content
-* [Autoprefixer](https://github.com/postcss/autoprefixer) - A PostCSS plugin to add vendor prefixes to CSS rules
+$ cd mysite
 
-## Getting Started
+Add the project to version control (recommended, not required):
 
-### Requirements
+ruby
+Copy code
+$ git init
+$ git add .
+$ git commit -m "Initial commit"
+Useful Commands
+Run the development server:
 
-* [Middleman 4.x](https://middlemanapp.com/basics/install/)
-* [Ruby](https://www.ruby-lang.org/en/)
-* [Bundler](http://bundler.io/)
-* [Node.js](https://nodejs.org/en/)
+bundle exec middleman server
 
-### Start a New Project
+Build your site:
 
-Start a new Middleman project using this template:
-
-`$ middleman init mysite -T jonaskay/middleman-tailwindcss`
+bundle exec middleman build
 
 Change into the project root:
 
@@ -50,10 +57,3 @@ Build your site:
 
 `bundle exec middleman build`
 
-## Acknowledgements
-
-This project template uses code from the following libraries:
-* <https://github.com/middleman/middleman-templates-default>
-
-The following repositories have been helpful in setting up this project:
-* <https://github.com/joshukraine/middleman-gulp>
